@@ -8,7 +8,13 @@ It should not be confused with the standard VPN payload, described in :ref:`payl
 
 The Per-App VPN payload supports all of the keys described in :ref:`payloadtype-com.apple.vpn.managed` plus the following additional keys
 
-.. note:: Copy VPN payload keys into the per app vpn manifest.
+Keys
+----
+
+.. pfmkey:: VPNUUID /_static/manifests/com.apple.vpn.managed.applayer manifest.plist
+.. pfmkey:: SafariDomains /_static/manifests/com.apple.vpn.managed.applayer manifest.plist
+.. pfmkey:: OnDemandMatchAppEnabled /_static/manifests/com.apple.vpn.managed.applayer manifest.plist
+.. pfmkey:: SafariDomains /_static/manifests/com.apple.vpn.managed.applayer manifest.plist
 
 .. contents::
 
